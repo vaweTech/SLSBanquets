@@ -45,8 +45,14 @@ export default function Footer() {
               <span>slsbanquets@gmail.com</span>
             </li>
             <li className="flex items-center gap-2">
-              <MapPinIcon className="w-5 h-5 text-indigo-400" />
-              <span>Kandrika Street, Vijayawada</span>
+              <MapPinIcon className="w-13 h-13 text-indigo-400" />
+              <span>S L S ENCLAVE,
+                    DNO: 77-149-20,
+                    Plot No: 137; 
+                   Journalist Colony,
+                   Rajiv-Kandrika Main Rd (48 R Bus route)
+                   Payakapuram,
+                  Vijayawada.</span>
             </li>
           </ul>
         </div>
@@ -59,3 +65,81 @@ export default function Footer() {
     </footer>
   );
 }
+
+//---------------adding pastel colors -------------------
+
+
+// "use client";
+// import {
+//   PhoneIcon,
+//   EnvelopeIcon,
+//   MapPinIcon,
+// } from "@heroicons/react/24/outline";
+
+// export default function Footer() {
+//   return (
+//     <footer className="bg-gradient-to-t from-[#f2f0f7] via-[#e6f7f1] to-[#ffe6f0] text-gray-700 relative overflow-hidden">
+      
+//       {/* Decorative Circles */}
+//       <div className="absolute -top-10 -left-10 w-40 h-40 bg-[#d9c2ff] rounded-full opacity-30 blur-3xl animate-pulse"></div>
+//       <div className="absolute bottom-0 right-0 w-56 h-56 bg-[#a8f0d1] rounded-full opacity-25 blur-3xl"></div>
+//       <div className="absolute top-1/2 left-1/2 w-32 h-32 bg-[#ffc2d6] rounded-full opacity-20 blur-2xl"></div>
+
+//       {/* Top Section */}
+//       <div className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-10 border-b border-gray-300 relative z-10">
+        
+//         {/* Column 1 - Brand */}
+//         <div>
+//           <h2 className="text-2xl font-bold text-[#6e49ff]">SLS Banquets</h2>
+//           <p className="mt-3 text-sm text-[#4db38b]">
+//             The Mini Function Hall – A perfect venue for weddings, celebrations, and memorable gatherings.
+//           </p>
+//         </div>
+
+//         {/* Column 2 - Quick Links */}
+//         <div>
+//           <h3 className="text-lg font-semibold text-[#6e49ff] mb-3">Quick Links</h3>
+//           <ul className="space-y-2 text-sm">
+//             <li>
+//               <a href="#facilities" className="hover:text-[#ff80b3] transition-colors duration-300">Facilities</a>
+//             </li>
+//             <li>
+//               <a href="#gallery" className="hover:text-[#ff80b3] transition-colors duration-300">Gallery</a>
+//             </li>
+//             <li>
+//               <a href="#about" className="hover:text-[#ff80b3] transition-colors duration-300">About Us</a>
+//             </li>
+//             <li>
+//               <a href="#contact" className="hover:text-[#ff80b3] transition-colors duration-300">Contact</a>
+//             </li>
+//           </ul>
+//         </div>
+
+//         {/* Column 3 - Contact Info */}
+//         <div>
+//           <h3 className="text-lg font-semibold text-[#6e49ff] mb-3">Contact Us</h3>
+//           <ul className="space-y-3 text-sm">
+//             <li className="flex items-center gap-2">
+//               <PhoneIcon className="w-5 h-5 text-[#4db38b]" />
+//               <span>+91 7672024124 ,</span>
+//               <span>+91 9848043782</span>
+//             </li>
+//             <li className="flex items-center gap-2">
+//               <EnvelopeIcon className="w-5 h-5 text-[#4db38b]" />
+//               <span>slsbanquets@gmail.com</span>
+//             </li>
+//             <li className="flex items-center gap-2">
+//               <MapPinIcon className="w-5 h-5 text-[#4db38b]" />
+//               <span>Kandrika Street, Vijayawada</span>
+//             </li>
+//           </ul>
+//         </div>
+//       </div>
+
+//       {/* Bottom Section */}
+//       <div className="text-center py-6 text-sm text-[#6e49ff] relative z-10">
+//         © {new Date().getFullYear()} SLS Banquets. All rights reserved.
+//       </div>
+//     </footer>
+//   );
+// }

@@ -1,3 +1,392 @@
+//-------Without SEO -----------------
+
+
+// "use client";
+// import {
+//   BuildingOffice2Icon,
+//   BuildingOfficeIcon,
+//   CloudIcon,
+//   UserGroupIcon,
+//   PresentationChartBarIcon,
+//   TruckIcon,
+//   BoltIcon,
+//   LightBulbIcon,
+// } from "@heroicons/react/24/outline";
+
+// export default function Facilities() {
+//   const facilities = [
+//     {
+//       icon: <BuildingOffice2Icon className="w-8 h-8 text-purple-600" />,
+//       title: "Spacious Function Hall",
+//       description:
+//         "Large hall with excellent capacity, ideal for weddings, receptions, and all kinds of celebrations.",
+//       gradient: "from-purple-500 to-pink-500",
+//     },
+//     {
+//       icon: <CloudIcon className="w-8 h-8 text-sky-600" />,
+//       title: "Fully Air-Conditioned",
+//       description:
+//         "A cool and comfortable environment for your guests all year round.",
+//       gradient: "from-sky-400 to-cyan-500",
+//     },
+//     {
+//       icon: <UserGroupIcon className="w-8 h-8 text-pink-600" />,
+//       title: "Comfortable Seating",
+//       description:
+//         "Chairs and tables arranged neatly for gatherings of all sizes.",
+//       gradient: "from-pink-500 to-rose-500",
+//     },
+//     {
+//       icon: <PresentationChartBarIcon className="w-8 h-8 text-amber-600" />,
+//       title: "Stage / Platform",
+//       description:
+//         "Elegant stage for weddings, cultural programs, and ceremonies.",
+//       gradient: "from-amber-400 to-orange-500",
+//     },
+//     {
+//       icon: <TruckIcon className="w-8 h-8 text-indigo-600" />,
+//       title: "Spacious Parking",
+//       description:
+//         "Dedicated parking area with easy access for your guests’ convenience.",
+//       gradient: "from-indigo-500 to-blue-500",
+//     },
+//     {
+//       icon: <BuildingOfficeIcon className="w-8 h-8 text-green-600" />,
+//       title: "Restrooms & Wash Areas",
+//       description:
+//         "Clean and well-maintained restrooms and wash areas for your guests.",
+//       gradient: "from-green-400 to-emerald-500",
+//     },
+//     {
+//       icon: <BoltIcon className="w-8 h-8 text-yellow-600" />,
+//       title: "Generator / Power Backup",
+//       description:
+//         "Uninterrupted power supply to ensure your event goes smoothly.",
+//       gradient: "from-yellow-400 to-amber-500",
+//     },
+//     {
+//       icon: <LightBulbIcon className="w-8 h-8 text-red-600" />,
+//       title: "Basic Lighting & Fans",
+//       description:
+//         "Good lighting and fan arrangements included within the hall.",
+//       gradient: "from-red-400 to-rose-500",
+//     },
+//   ];
+
+//   return (
+//     <section
+//       id="facilities"
+//       className="relative py-20 px-6 bg-gradient-to-b from-white via-gray-50 to-gray-100"
+//     >
+//       {/* Section Header */}
+//       <div className="text-center mb-16">
+//         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+//           Our{" "}
+//           <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+//             Facilities
+//           </span>
+//         </h2>
+//         <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
+//           Discover the features that make our function hall the perfect place
+//           for your special occasions.
+//         </p>
+//       </div>
+
+//       {/* Facilities Grid */}
+//       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-7xl mx-auto">
+//         {facilities.map((facility, index) => (
+//           <div
+//             key={index}
+//             className={`relative group rounded-2xl p-[2px] bg-gradient-to-tr ${facility.gradient} shadow-xl hover:shadow-2xl transition-all duration-500`}
+//           >
+//             {/* Inner Card */}
+//             <div className="h-full w-full bg-white rounded-2xl p-6 flex flex-col items-start justify-start hover:bg-gray-50 transition">
+//               {/* Icon */}
+//               <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-tr from-gray-100 to-white mb-5 group-hover:scale-110 group-hover:rotate-3 transition">
+//                 {facility.icon}
+//               </div>
+
+//               {/* Title */}
+//               <h3 className="text-lg font-bold text-gray-900 mb-2">
+//                 {facility.title}
+//               </h3>
+
+//               {/* Description */}
+//               <p className="text-sm text-gray-600 leading-relaxed">
+//                 {facility.description}
+//               </p>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// }
+
+
+
+///---------------With SEO----------------
+
+
+
+// "use client";
+// import {
+//   BuildingOffice2Icon,
+//   BuildingOfficeIcon,
+//   CloudIcon,
+//   UserGroupIcon,
+//   PresentationChartBarIcon,
+//   TruckIcon,
+//   BoltIcon,
+//   LightBulbIcon,
+// } from "@heroicons/react/24/outline";
+
+// export default function Facilities() {
+//   const facilities = [
+//     {
+//       icon: <BuildingOffice2Icon className="w-8 h-8 text-purple-600" />,
+//       title: "Spacious Banquet Hall",
+//       description:
+//         "Large, elegant hall with excellent capacity, ideal for weddings, receptions, and all kinds of celebrations.",
+//       gradient: "from-purple-500 to-pink-500",
+//     },
+//     {
+//       icon: <CloudIcon className="w-8 h-8 text-sky-600" />,
+//       title: "Fully Air-Conditioned",
+//       description:
+//         "A cool and comfortable environment for your guests all year round with modern climate control.",
+//       gradient: "from-sky-400 to-cyan-500",
+//     },
+//     {
+//       icon: <UserGroupIcon className="w-8 h-8 text-pink-600" />,
+//       title: "Comfortable Seating",
+//       description:
+//         "Well-arranged chairs and tables with good ambience to suit gatherings of all sizes.",
+//       gradient: "from-pink-500 to-rose-500",
+//     },
+//     {
+//       icon: <PresentationChartBarIcon className="w-8 h-8 text-amber-600" />,
+//       title: "Beautiful Stage / Platform",
+//       description:
+//         "An elegant stage setup perfect for weddings, cultural programs, and ceremonies.",
+//       gradient: "from-amber-400 to-orange-500",
+//     },
+//     {
+//       icon: <TruckIcon className="w-8 h-8 text-indigo-600" />,
+//       title: "Spacious Parking",
+//       description:
+//         "Dedicated parking area with easy access for your guests’ convenience and safety.",
+//       gradient: "from-indigo-500 to-blue-500",
+//     },
+//     {
+//       icon: <BuildingOfficeIcon className="w-8 h-8 text-green-600" />,
+//       title: "Restrooms & Wash Areas",
+//       description:
+//         "Clean, well-maintained restrooms and wash areas designed for comfort and hygiene.",
+//       gradient: "from-green-400 to-emerald-500",
+//     },
+//     {
+//       icon: <BoltIcon className="w-8 h-8 text-yellow-600" />,
+//       title: "Generator / Power Backup",
+//       description:
+//         "Uninterrupted power supply ensures your event goes smoothly without interruptions.",
+//       gradient: "from-yellow-400 to-amber-500",
+//     },
+//     {
+//       icon: <LightBulbIcon className="w-8 h-8 text-red-600" />,
+//       title: "Lighting & Fans",
+//       description:
+//         "Good lighting and fan arrangements with affordability and quality included in the hall.",
+//       gradient: "from-red-400 to-rose-500",
+//     },
+//   ];
+
+//   return (
+//     <section
+//       id="facilities"
+//       className="relative py-20 px-6 bg-gradient-to-b from-white via-gray-50 to-gray-100"
+//     >
+//       {/* Section Header */}
+//       <div className="text-center mb-16">
+//         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+//           Our{" "}
+//           <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+//             Facilities
+//           </span>
+//         </h2>
+//         <p className="text-gray-600 mt-3 max-w-3xl mx-auto leading-relaxed">
+//           Explore the <strong>best facilities</strong> at our{" "}
+//           <strong>banquet hall in Kandrika, Vijayawada</strong>. We focus on{" "}
+//           <strong>quality, affordability, good ambience, and beautiful
+//           interiors</strong> to make your weddings, receptions, and celebrations
+//           truly special. Whether you choose our{" "}
+//           <strong>function hall</strong> or full banquet services, we ensure a
+//           premium experience.
+//         </p>
+//       </div>
+
+//       {/* Facilities Grid */}
+//       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-7xl mx-auto">
+//         {facilities.map((facility, index) => (
+//           <div
+//             key={index}
+//             className={`relative group rounded-2xl p-[2px] bg-gradient-to-tr ${facility.gradient} shadow-xl hover:shadow-2xl transition-all duration-500`}
+//           >
+//             {/* Inner Card */}
+//             <div className="h-full w-full bg-white rounded-2xl p-6 flex flex-col items-start justify-start hover:bg-gray-50 transition">
+//               {/* Icon */}
+//               <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-tr from-gray-100 to-white mb-5 group-hover:scale-110 group-hover:rotate-3 transition">
+//                 {facility.icon}
+//               </div>
+
+//               {/* Title */}
+//               <h3 className="text-lg font-bold text-gray-900 mb-2">
+//                 {facility.title}
+//               </h3>
+
+//               {/* Description */}
+//               <p className="text-sm text-gray-600 leading-relaxed">
+//                 {facility.description}
+//               </p>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// }
+
+
+
+//----------apply the final colors ------------
+
+
+// "use client";
+// import {
+//   BuildingOffice2Icon,
+//   BuildingOfficeIcon,
+//   CloudIcon,
+//   UserGroupIcon,
+//   PresentationChartBarIcon,
+//   TruckIcon,
+//   BoltIcon,
+//   LightBulbIcon,
+// } from "@heroicons/react/24/outline";
+
+// export default function Facilities() {
+//   const facilities = [
+//     {
+//       icon: <BuildingOffice2Icon className="w-8 h-8 text-white" />,
+//       title: "Spacious Banquet Hall",
+//       description:
+//         "Large, elegant hall with excellent capacity, ideal for weddings, receptions, and all kinds of celebrations.",
+//       gradient: "from-[#FFD447] to-[#FF6F61]",
+//     },
+//     {
+//       icon: <CloudIcon className="w-8 h-8 text-white" />,
+//       title: "Fully Air-Conditioned",
+//       description:
+//         "A cool and comfortable environment for your guests all year round with modern climate control.",
+//       gradient: "from-[#3498DB] to-[#FFD447]",
+//     },
+//     {
+//       icon: <UserGroupIcon className="w-8 h-8 text-white" />,
+//       title: "Comfortable Seating",
+//       description:
+//         "Well-arranged chairs and tables with good ambience to suit gatherings of all sizes.",
+//       gradient: "from-[#FF6F61] to-[#3498DB]",
+//     },
+//     {
+//       icon: <PresentationChartBarIcon className="w-8 h-8 text-white" />,
+//       title: "Beautiful Stage / Platform",
+//       description:
+//         "An elegant stage setup perfect for weddings, cultural programs, and ceremonies.",
+//       gradient: "from-[#FFD447] to-[#FF6F61]",
+//     },
+//     {
+//       icon: <TruckIcon className="w-8 h-8 text-white" />,
+//       title: "Spacious Parking",
+//       description:
+//         "Dedicated parking area with easy access for your guests’ convenience and safety.",
+//       gradient: "from-[#3498DB] to-[#FFD447]",
+//     },
+//     {
+//       icon: <BuildingOfficeIcon className="w-8 h-8 text-white" />,
+//       title: "Restrooms & Wash Areas",
+//       description:
+//         "Clean, well-maintained restrooms and wash areas designed for comfort and hygiene.",
+//       gradient: "from-[#FFD447] to-[#3498DB]",
+//     },
+//     {
+//       icon: <BoltIcon className="w-8 h-8 text-white" />,
+//       title: "Generator / Power Backup",
+//       description:
+//         "Uninterrupted power supply ensures your event goes smoothly without interruptions.",
+//       gradient: "from-[#FF6F61] to-[#FFD447]",
+//     },
+//     {
+//       icon: <LightBulbIcon className="w-8 h-8 text-white" />,
+//       title: "Lighting & Fans",
+//       description:
+//         "Good lighting and fan arrangements with affordability and quality included in the hall.",
+//       gradient: "from-[#3498DB] to-[#FF6F61]",
+//     },
+//   ];
+
+//   return (
+//     <section
+//       id="facilities"
+//       className="relative py-20 px-6 bg-gradient-to-b from-white via-[#FFD447]/5 to-white"
+//     >
+//       {/* Section Header */}
+//       <div className="text-center mb-16">
+//         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+//           Our{" "}
+//           <span className="bg-gradient-to-r from-[#FFD447] via-[#FF6F61] to-[#3498DB] bg-clip-text text-transparent">
+//             Facilities
+//           </span>
+//         </h2>
+//         <p className="text-gray-600 mt-3 max-w-3xl mx-auto leading-relaxed">
+//           Explore the <strong>best facilities</strong> at our{" "}
+//           <strong>banquet hall in Kandrika, Vijayawada</strong>. We focus on{" "}
+//           <strong>quality, affordability, ambience, and beautiful
+//           interiors</strong> to make your weddings, receptions, and celebrations
+//           truly special.
+//         </p>
+//       </div>
+
+//       {/* Facilities Grid */}
+//       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-7xl mx-auto">
+//         {facilities.map((facility, index) => (
+//           <div
+//             key={index}
+//             className={`relative group rounded-2xl p-[2px] bg-gradient-to-tr ${facility.gradient} shadow-xl hover:shadow-2xl transition-all duration-500`}
+//           >
+//             {/* Inner Card */}
+//             <div className="h-full w-full bg-white rounded-2xl p-6 flex flex-col items-start justify-start hover:bg-gray-50 transition">
+//               {/* Icon */}
+//               <div
+//                 className={`flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-tr ${facility.gradient} shadow-md mb-5 group-hover:scale-110 group-hover:rotate-3 transition`}
+//               >
+//                 {facility.icon}
+//               </div>
+
+//               {/* Title */}
+//               <h3 className="text-lg font-bold text-gray-900 mb-2">
+//                 {facility.title}
+//               </h3>
+
+//               {/* Description */}
+//               <p className="text-sm text-gray-600 leading-relaxed">
+//                 {facility.description}
+//               </p>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// }
 
 
 
@@ -16,79 +405,80 @@ import {
 export default function Facilities() {
   const facilities = [
     {
-      icon: <BuildingOffice2Icon className="w-8 h-8 text-purple-600" />,
-      title: "Spacious Function Hall",
+      icon: <BuildingOffice2Icon className="w-8 h-8 text-white" />,
+      title: "Spacious Banquet Hall",
       description:
-        "Large hall with excellent capacity, ideal for weddings, receptions, and all kinds of celebrations.",
-      gradient: "from-purple-500 to-pink-500",
+        "Large, elegant hall with excellent capacity, ideal for weddings, receptions, and all kinds of celebrations.",
+      gradient: "from-[#FFD447] to-[#FF6F61]", // gradient applied
     },
     {
-      icon: <CloudIcon className="w-8 h-8 text-sky-600" />,
+      icon: <CloudIcon className="w-8 h-8 text-white" />,
       title: "Fully Air-Conditioned",
       description:
-        "A cool and comfortable environment for your guests all year round.",
-      gradient: "from-sky-400 to-cyan-500",
+        "A cool and comfortable environment for your guests all year round with modern climate control.",
+      solidColor: "#3498DB", // solid color applied
     },
     {
-      icon: <UserGroupIcon className="w-8 h-8 text-pink-600" />,
+      icon: <UserGroupIcon className="w-8 h-8 text-white" />,
       title: "Comfortable Seating",
       description:
-        "Chairs and tables arranged neatly for gatherings of all sizes.",
-      gradient: "from-pink-500 to-rose-500",
+        "Well-arranged chairs and tables with good ambience to suit gatherings of all sizes.",
+      solidColor: "#FF6F61",
     },
     {
-      icon: <PresentationChartBarIcon className="w-8 h-8 text-amber-600" />,
-      title: "Stage / Platform",
+      icon: <PresentationChartBarIcon className="w-8 h-8 text-white" />,
+      title: "Beautiful Stage / Platform",
       description:
-        "Elegant stage for weddings, cultural programs, and ceremonies.",
-      gradient: "from-amber-400 to-orange-500",
+        "An elegant stage setup perfect for weddings, cultural programs, and ceremonies.",
+      gradient: "from-[#FFD447] to-[#FF6F61]", // gradient applied
     },
     {
-      icon: <TruckIcon className="w-8 h-8 text-indigo-600" />,
+      icon: <TruckIcon className="w-8 h-8 text-white" />,
       title: "Spacious Parking",
       description:
-        "Dedicated parking area with easy access for your guests’ convenience.",
-      gradient: "from-indigo-500 to-blue-500",
+        "Dedicated parking area with easy access for your guests’ convenience and safety.",
+      solidColor: "#3498DB",
     },
     {
-      icon: <BuildingOfficeIcon className="w-8 h-8 text-green-600" />,
+      icon: <BuildingOfficeIcon className="w-8 h-8 text-white" />,
       title: "Restrooms & Wash Areas",
       description:
-        "Clean and well-maintained restrooms and wash areas for your guests.",
-      gradient: "from-green-400 to-emerald-500",
+        "Clean, well-maintained restrooms and wash areas designed for comfort and hygiene.",
+      solidColor: "#FFD447",
     },
     {
-      icon: <BoltIcon className="w-8 h-8 text-yellow-600" />,
+      icon: <BoltIcon className="w-8 h-8 text-white" />,
       title: "Generator / Power Backup",
       description:
-        "Uninterrupted power supply to ensure your event goes smoothly.",
-      gradient: "from-yellow-400 to-amber-500",
+        "Uninterrupted power supply ensures your event goes smoothly without interruptions.",
+      gradient: "from-[#FF6F61] to-[#FFD447]", // gradient applied
     },
     {
-      icon: <LightBulbIcon className="w-8 h-8 text-red-600" />,
-      title: "Basic Lighting & Fans",
+      icon: <LightBulbIcon className="w-8 h-8 text-white" />,
+      title: "Lighting & Fans",
       description:
-        "Good lighting and fan arrangements included within the hall.",
-      gradient: "from-red-400 to-rose-500",
+        "Good lighting and fan arrangements with affordability and quality included in the hall.",
+      solidColor: "#FF6F61",
     },
   ];
 
   return (
     <section
       id="facilities"
-      className="relative py-20 px-6 bg-gradient-to-b from-white via-gray-50 to-gray-100"
+      className="relative py-20 px-6 bg-gradient-to-b from-white via-[#FFD447]/5 to-white"
     >
       {/* Section Header */}
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900">
           Our{" "}
-          <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-[#FFD447] via-[#FF6F61] to-[#3498DB] bg-clip-text text-transparent">
             Facilities
           </span>
         </h2>
-        <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-          Discover the features that make our function hall the perfect place
-          for your special occasions.
+        <p className="text-gray-600 mt-3 max-w-3xl mx-auto leading-relaxed">
+          Explore the <strong>best facilities</strong> at our{" "}
+          <strong>banquet hall in Kandrika, Vijayawada</strong>. We focus on{" "}
+          <strong>quality, affordability, ambience, and beautiful interiors</strong> to make your events truly special.
         </p>
       </div>
 
@@ -97,12 +487,26 @@ export default function Facilities() {
         {facilities.map((facility, index) => (
           <div
             key={index}
-            className={`relative group rounded-2xl p-[2px] bg-gradient-to-tr ${facility.gradient} shadow-xl hover:shadow-2xl transition-all duration-500`}
+            className={`relative group rounded-2xl p-[2px] shadow-xl hover:shadow-2xl transition-all duration-500 ${
+              facility.gradient
+                ? `bg-gradient-to-tr ${facility.gradient}`
+                : `bg-[${facility.solidColor}]`
+            }`}
           >
             {/* Inner Card */}
-            <div className="h-full w-full bg-white rounded-2xl p-6 flex flex-col items-start justify-start hover:bg-gray-50 transition">
+            <div
+              className={`h-full w-full rounded-2xl p-6 flex flex-col items-start justify-start transition ${
+                facility.gradient ? "bg-white" : "bg-white"
+              }`}
+            >
               {/* Icon */}
-              <div className="flex items-center justify-center w-14 h-14 rounded-xl bg-gradient-to-tr from-gray-100 to-white mb-5 group-hover:scale-110 group-hover:rotate-3 transition">
+              <div
+                className={`flex items-center justify-center w-14 h-14 rounded-xl shadow-md mb-5 transition ${
+                  facility.gradient
+                    ? `bg-gradient-to-tr ${facility.gradient} group-hover:scale-110 group-hover:rotate-3`
+                    : `bg-[${facility.solidColor}] group-hover:scale-110`
+                }`}
+              >
                 {facility.icon}
               </div>
 

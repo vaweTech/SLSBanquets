@@ -1,6 +1,9 @@
 
 
 
+//-----------------------apply the final colors----------------
+
+
 "use client";
 import { useState, useEffect } from "react";
 
@@ -8,7 +11,6 @@ export default function HeroSection() {
   const images = ["/heroimg.jpg", "/heroimg1.jpg", "/heroimg2.jpg"];
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Image slider interval
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -16,7 +18,6 @@ export default function HeroSection() {
     return () => clearInterval(interval);
   }, []);
 
-  // Particle positions (client-side only)
   const [particles, setParticles] = useState([]);
   useEffect(() => {
     const generated = Array.from({ length: 20 }, () => ({
@@ -69,17 +70,18 @@ export default function HeroSection() {
         {/* Logo / Brand */}
         <div className="mb-8">
           <div className="inline-block p-4 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
-            <div className="text-3xl md:text-4xl font-bold text-amber-300">SLS</div>
+            <div className="text-3xl md:text-4xl font-bold text-[#FFD447]">SLS</div>
           </div>
-          <div className="text-xl md:text-2xl font-light text-amber-100 tracking-widest">
+          <div className="text-xl md:text-2xl font-light text-[#FF6F61] tracking-widest">
             BANQUETS
           </div>
         </div>
 
         {/* Main Heading */}
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-extralight mb-6 leading-tight">
-          <span className="block text-white font-thin">Elegant</span>
-          <span className="block text-amber-300 font-bold bg-gradient-to-r from-amber-300 to-yellow-400 bg-clip-text text-transparent">
+          <span className="block text-white font-thin italic font-[cursive]">Elegant</span>
+
+          <span className="block font-bold bg-gradient-to-r from-[#FFD447] to-[#FF6F61] bg-clip-text text-transparent">
             Celebrations
           </span>
         </h1>
@@ -93,15 +95,15 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="#contact"
-            className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-yellow-500 rounded-full text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/25"
+            className="group relative px-8 py-4 bg-gradient-to-r from-[#FFD447] to-[#FF6F61] rounded-full text-black font-semibold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#FFD447]/30"
           >
             <span className="relative z-10">Book Your Event</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-amber-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-[#FF6F61] to-[#FFD447] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </a>
 
           <a
             href="#gallery"
-            className="group px-8 py-4 border-2 border-white/30 rounded-full text-white font-semibold text-lg backdrop-blur-sm hover:border-amber-300 hover:text-amber-300 transition-all duration-300 hover:bg-white/5"
+            className="group px-8 py-4 border-2 border-white/30 rounded-full text-white font-semibold text-lg backdrop-blur-sm hover:border-[#3498DB] hover:text-[#3498DB] transition-all duration-300 hover:bg-white/5"
           >
             View Gallery
             <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300 inline-block">→</span>
@@ -117,8 +119,8 @@ export default function HeroSection() {
             onClick={() => setCurrentIndex(index)}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${
               index === currentIndex
-                ? "bg-amber-400 scale-125"
-                : "bg-white/40 hover:bg-white/60"
+                ? "bg-[#FFD447] scale-125"
+                : "bg-white/40 hover:bg-[#3498DB]"
             }`}
           />
         ))}
@@ -134,3 +136,4 @@ export default function HeroSection() {
     </section>
   );
 }
+
